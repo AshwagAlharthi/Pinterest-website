@@ -1,0 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgb(139, 8, 8);
+    height: 8vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main content container */
+.main-container{
+    background-color: rgb(196, 196, 196);
+    height: 84vh;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(244, 217, 62);
+    height: 8vh;
+}
