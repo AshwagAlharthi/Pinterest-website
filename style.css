@@ -5,24 +5,104 @@
 
 /* navbar */
 .navbar {
-    background-color: rgb(139, 8, 8);
+    /* background-color: rgb(139, 8, 8); */
     height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.65rem;
 }
 
+.navbar-logo {
+    /* background-color: rgb(8, 139, 67); */
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.logo {
+    width: 30%;
+}
 
+.website-name {
+    color: #bd081c;
+    width: 60%;
+}
 
+.navbar-list {
+    /* background-color: rgb(67, 43, 146); */
+    width: 79%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.first-list-container{
+    /* background-color: paleturquoise; */
+    width: 15%;
+    display: flex;
+}
 
+.first-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.second-list-container{
+    /* background-color: rgb(196, 130, 172); */
+    width: 25%; 
+    display: flex;
+}
 
+.second-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+li {
+    list-style: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
 
+.navbar-buttons-container {
+    /* background-color: rgb(132, 146, 43); */
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.login-button {
+    width:45%;
+    height: 60%;
+    background-color: #bd081c;
+    color: white;
+    border: none;
+    border-radius: 40%;
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding: 5px;
+}
 
+.signup-button {
+    width:50%;
+    height: 60%;
+    background-color: #e9e9e9;
+    color: #bd081c;
+    border: none;
+    border-radius: 40%;
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding: 5px;
+}
 
 /* main content container */
-.main-container{
+.main-container {
     background-color: rgb(196, 196, 196);
     height: 84vh;
 }
