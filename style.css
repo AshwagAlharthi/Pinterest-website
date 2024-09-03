@@ -104,8 +104,112 @@ li {
 /* main content container */
 .main-container {
     background-color: rgb(196, 196, 196);
-    height: 84vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.title-div{
+    font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight:600;
+    background-color: #bd081c;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-p, .third-p{
+    color: #c28c02;
+}
+
+.dot{
+    color: #e5e5e5;
+}
+
+.images-container{
+    background-color: rgb(63, 143, 63);
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+
+.images1{
+    background-color: rgb(63, 143, 63);
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images2{
+    background-color: rgb(119, 63, 143);
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images-container img {
+    border-radius: 8%;
+}
+
+.first-image1, .seventh-image1{
+display: flex;
+align-self: flex-start;
+transform: translate(0,-60%);
+}
+
+.second-image1, .sixth-image1{
+    display: flex;
+    align-self: flex-start;
+    transform: translate(0,-25%);
+}
+
+.third-image1, .fifth-image1{
+    display: flex;
+    align-self: flex-start;
+    transform: translate(0,15%);
+}
+
+.fourth-image1{
+    display: flex;
+    align-self: flex-start;
+    transform: translate(0,50%);
+}
+
+
+.first-image2, .seventh-image2{
+    display: flex;
+    align-self: flex-start;
+    transform: translate(0,-55%);
+    }
+    
+    .second-image2, .sixth-image2{
+        display: flex;
+        align-self: flex-start;
+        transform: translate(0,-20%);
+    }
+    
+    .third-image2, .fifth-image2{
+        display: flex;
+        align-self: flex-start;
+        transform: translate(0,20%);
+    }
+    
+    .fourth-image2{
+        display: flex;
+        align-self: flex-start;
+        transform: translate(0,55%);
+    }
+    
+
+
+
 
 /* footer */
 .footer {
